@@ -4,8 +4,8 @@ addEventListener('fetch', event => {
 
 // Use environment variables with fallbacks
 const ZONE_ID = ZONE_ID || 'REPLACE_WITH_ZONE_ID';
-const API_TOKEN = API_TOKEN || 'REPLACE_WITH_SCOPED_API'; // Will be replaced by users
-const DOMAIN_NAME = DOMAIN_NAME || 'taslabs.net'; // REPLACE WITH YOUR DOMAIN NAME
+const API_TOKEN = API_TOKEN || 'REPLACE_WITH_SCOPED_API_TOKEN'; // Will be replaced by users
+const DOMAIN_NAME = DOMAIN_NAME || 'taslabs.net'; // Default domain name, REPLACE WITH YOURS
 
 async function handleRequest(request) {
   const url = new URL(request.url);
@@ -178,7 +178,14 @@ function generateHTML(domainName, zoneId) {
   </div>
   
   <div class="footer">
-    <p>Cache Purger Tool • <a href="https://github.com/yourusername/cache-purge-tool" target="_blank">View on GitHub</a></p>
+    <p>
+      Cache Purger Tool • 
+      <a href="https://github.com/taslabs-net/cf_cache_purge" target="_blank">View on GitHub</a> • 
+      <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/taslabs-net/cf_cache_purge" target="_blank">
+        Deploy your own
+        <img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare Workers" style="height: 18px; vertical-align: middle; margin-left: 5px;">
+      </a>
+    </p>
   </div>
 
   <script>
