@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-cache-purge",
+  "version": "1.0.0",
+  "description": "A simple tool to purge Cloudflare cache with a single click",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "author": "Timothy Schneider",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.15.0"
+  }
+}
