@@ -179,7 +179,7 @@ function generateHTML(domainName, zoneId) {
   
   <div class="footer">
     <p>
-      Cache Purger Tool • 
+      Cache Purge Tool • 
       <a href="https://github.com/taslabs-net/cf_cache_purge" target="_blank">View on GitHub</a> • 
       <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/taslabs-net/cf_cache_purge" target="_blank">
         Deploy your own
