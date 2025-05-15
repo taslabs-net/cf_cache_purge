@@ -13,7 +13,7 @@ A simple tool that allows you to purge Cloudflare cache with a single click.
 
 Click the button below to deploy this tool to your Cloudflare account:
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/taslabs-net/cache-purge)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/taslabs-net/cf_cache_purge)
 
 ## Setup After Deployment
 
