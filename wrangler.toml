@@ -1,0 +1,15 @@
+name = "cache-purge-tool"
+main = "worker.js"
+compatibility_date = "2023-05-15"
+
+# Define variables that users will need to configure
+[vars]
+ZONE_ID = "REPLACE_WITH_ZONE_ID"  # Default example value
+DOMAIN_NAME = "taslabs.net"                   # Default example value, REPLACE WITH YOUR DOMAIN
+
+# Routes configuration - this will be customized by the user during deployment
+routes = [
+  { pattern = "purge.taslabs.net/*", zone_name = "taslabs.net" }
+]
+
+# Update Domains above, I have left mine in as an example.
