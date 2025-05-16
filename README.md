@@ -21,7 +21,7 @@ After deploying, you'll need to:
 
 1. Set your Cloudflare Zone ID and domain name in the environment variables
 2. Create a Cloudflare API Token with Cache Purge permissions
-3. Set up a custom domain (optional) by adding a CNAME record pointing to your Worker
+
 
 ## How to Create an API Token
 
